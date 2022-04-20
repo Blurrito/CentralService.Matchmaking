@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CentralService.Api.Matchmaking.Core\CentralService.Api.Matchmaking.Core.csproj" />
+    <ProjectReference Include="..\CentralService.Api.Matchmaking.Interfaces\CentralService.Api.Matchmaking.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

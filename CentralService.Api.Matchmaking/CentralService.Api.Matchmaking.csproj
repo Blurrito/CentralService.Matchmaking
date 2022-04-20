@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>3f736f51-0366-48b0-b5c8-f2c52d2584f1</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CentralService.Api.Matchmaking.Core.Factories\CentralService.Api.Matchmaking.Core.Factories.csproj" />
+    <ProjectReference Include="..\CentralService.Api.Matchmaking.Dto\CentralService.Api.Matchmaking.Dto.csproj" />
+    <ProjectReference Include="..\CentralService.Api.Matchmaking.Interfaces\CentralService.Api.Matchmaking.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
